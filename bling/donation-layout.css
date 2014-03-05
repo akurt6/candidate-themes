@@ -6,6 +6,8 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
+  font-family: Verdana;
+  font-size: 10pt;
 }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
@@ -474,3 +476,33 @@ body {
 #container,#footer {
   width: expression(document.body.clientWidth<742?"740px":document.body.clientWidth>1202?"1200px":"auto");
 }
+
+#webform-component-donation {
+
+  background-color: #dddddd;
+
+}
+#webform-component-donor-information {
+
+  background-color: #dddddd;
+
+}
+#webform-component-billing-information {
+
+  background-color: #dddddd;
+
+}
+
+#webform-component-payment-information {
+
+  background-color: #dddddd;
+
+}
+
+input {
+
+  border: 1px solid #000000;
+}
+
+
+
